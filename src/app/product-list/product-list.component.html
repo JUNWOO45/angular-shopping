@@ -10,6 +10,10 @@
   <p *ngIf="product.description">
     제품 설명: {{ product.description }}
   </p>
+
+  <button (click)="share()">공유하기</button>
+
+  <app-product-alerts [product]="product"></app-product-alerts>
 </div>
 
 <!-- 

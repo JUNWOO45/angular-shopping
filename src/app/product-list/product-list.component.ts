@@ -11,7 +11,7 @@ export class ProductListComponent {
   products = products;
 
   share() {
-    window.alert('The product has been shared!');
+    window.alert('선택하신 물건이 친구들에게 공유되었어요!');
   }
 }
 
