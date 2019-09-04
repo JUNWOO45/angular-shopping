@@ -1,3 +1,5 @@
 <p *ngIf="product.price < 700">
-  <button>${{ product.price }} 가격으로 할인중!</button>
+  <button (click)="notify.emit()">
+    ${{ product.price }} 가격으로 할인중!
+  </button>
 </p>
