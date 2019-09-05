@@ -1,5 +1,9 @@
 <h3>장바구니 목록</h3>
 
+<p>
+  <a routerLink="/shipping">배송비용</a>
+</p>
+
 <div class="cart-item" *ngFor="let item of items">
   <span>{{ item.name }}</span>
   <span>{{ item.price | currency }}</span>
